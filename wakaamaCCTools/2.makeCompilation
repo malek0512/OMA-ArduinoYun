@@ -20,7 +20,7 @@ export STAGING_DIR=`pwd`/openwrt/staging_dir
 
 cd build
 
-cmake -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake ../wakaama/examples/arduinoyunclient
+cmake -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake -DDTLS=1 ../wakaama/examples/arduinoyunclient
 
 if [ $? -eq 0 ] ; then
     make
