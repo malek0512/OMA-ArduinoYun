@@ -1,0 +1,9 @@
+launch scripts
+script 1. if it is just after a clone
+script 2. if you make changes on the current wakaama repository
+script 3. to copy the executable file to the arduino yun
+
+ip: 192.168.1.17
+login: root
+password: xxxxx
+
